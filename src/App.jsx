@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Badge } from "react-bootstrap";
 import { marked } from "marked";
 import "./App.css";
-const App2 = () => {
+const App = () => {
 	const [state, setstate] = useState("");
 
 	const updateMarkdown = (markdown) => setstate(markdown);
@@ -52,6 +52,7 @@ const App2 = () => {
 						</div>
 						<div
 							className="output-style"
+							style={{ textAlign: "left" }}
 							dangerouslySetInnerHTML={{
 								__html: marked(state),
 							}}
@@ -63,4 +64,4 @@ const App2 = () => {
 	);
 };
 
-export default App2;
+export default App;

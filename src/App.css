@@ -2,7 +2,7 @@
 	text-align: center;
 }
 .output-style {
-	width: 400px;
+	width: 350px;
 	height: 75vh;
 	background-color: #e1f8fa;
 	margin-left: auto;
@@ -10,9 +10,10 @@
 	padding: 10px;
 	border: 8px double #000000;
 	border-radius: 15px;
+
 }
 .input-style {
-	width: 400px;
+	width: 350px;
 	height: 75vh;
 	margin-left: auto;
 	margin-right: auto;
